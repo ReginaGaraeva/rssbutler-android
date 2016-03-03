@@ -1,14 +1,24 @@
 package com.windmill.rssbutler.domain;
 
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.table.DatabaseTable;
+
+@DatabaseTable(tableName = "channels")
 public class Channel extends Entity {
+
+    @DatabaseField()
     private String title;
+
+    @DatabaseField
     private String description;
+
+    @DatabaseField
     private String link;
 
     public Channel(long id, String title, String link){
         this.id = id;
         this.title = title;
-        this.description = description;
+        this.link = link;
     }
 
     public Channel(String title, String link){

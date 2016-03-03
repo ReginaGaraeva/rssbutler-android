@@ -1,8 +1,11 @@
 package com.windmill.rssbutler.domain;
 
+import com.j256.ormlite.field.DatabaseField;
+
 public class Entity {
     public static final long UNKNOWN_ID = 0;
 
+    @DatabaseField(id = true, unique = true)
     protected long id;
 
     public long getId(){

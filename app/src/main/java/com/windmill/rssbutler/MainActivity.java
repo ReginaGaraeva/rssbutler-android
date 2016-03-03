@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main);
 
 
-        MainFactory factory = new MainFactory(this);
+        MainFactory factory = new MainFactory(this, getLayoutInflater());
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         factory.newDrawerPresenter(drawer);
