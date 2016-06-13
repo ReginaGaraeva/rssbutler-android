@@ -1,9 +1,7 @@
 package com.windmill.rssbutler.db;
-
-import android.content.Entity;
-
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.dao.Dao;
+import com.windmill.rssbutler.domain.Entity;
 
 import java.sql.SQLException;
 import java.util.List;
