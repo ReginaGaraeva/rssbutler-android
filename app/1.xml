@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<channel>
+    <title>Solar System and Beyond</title>
+    <description>A RSS news feed containing the latest NASA press releases on missions exploring our solar system
+        and beyond.
+    </description>
+    <link>http://www.nasa.gov/</link>
+    <item>
+        <title>Microscopic &quot;Timers&quot; Reveal Likely Source of Galactic Space Radiation</title>
+        <link>http://www.nasa.gov/press-release/goddard/2016/ace-cosmic-ray</link>
+        <description>Most of the cosmic rays that we detect at Earth originated relatively recently in nearby
+            clusters of massive stars, according to new results from NASA&#039;s Advanced Composition Explorer (ACE)
+            spacecraft.
+        </description>
+        <enclosure
+                url="http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/hubble-ob-association.jpg?itok=A4zPTqOU"
+                length="1716407" type="image/jpeg"/>
+        <guid isPermaLink="false">http://www.nasa.gov/press-release/goddard/2016/ace-cosmic-ray</guid>
+        <pubDate>Thu, 21 Apr 2016 14:00 EDT</pubDate>
+        <source url="http://www.nasa.gov/rss/dyn/solar_system.rss">Solar System and Beyond</source>
+    </item>
+</channel>
