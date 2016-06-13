@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF">
+    <TextView
+            android:id="@+id/item_channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NASA Breaking News"
+            android:gravity="end"
+            android:textSize="12sp"
+            android:paddingTop="3dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp"
+            android:background="#DDDDDD"/>
+    <TextView
+            android:id="@+id/item_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="A SpaceX Dragon cargo spacecraft splashed down in the Pacific Ocean at 2:51 p.m. EDT Wednesday, May 11, about 261 miles southwest of Long Beach, California, with more than 3,700 pounds of NASA cargo, science and technology demonstration samples from the International Space Station."
+            android:textSize="14sp"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/channel_title_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:hint="Название канала" />
+
+    <EditText
+        android:id="@+id/channel_link_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:hint="Ссылка на RSS" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/channel_save_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Сохранить"
+            />
+
+        <Button
+            android:id="@+id/channel_cancel_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Отмена"
+            android:layout_gravity="right"/>
+    </FrameLayout>
+
+</LinearLayout>
